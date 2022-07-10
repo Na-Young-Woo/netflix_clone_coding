@@ -1,3 +1,117 @@
 body {
-  background-image: url("");
+  background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/9919b42b-9d37-4726-ab59-1df43235c4f1/KR-ko-20220704-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+  color: #fff;
 }
+.login-wrapper {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+#netflex-lgin-logo {
+  width: 167px;
+  line-height: 80px;
+  fill: #e50914;
+  margin-left: 2.4rem;
+  padding-top: 1rem;
+}
+.login-box {
+  width: 27.5rem;
+  margin: 0 auto;
+  min-height: 35rem;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 4rem;
+  margin-bottom: 5rem;
+}
+.login-box h2 {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+.login-box input [type="checkbox"] {
+}
+.login-box input {
+  background: #333;
+  width: 100%;
+  border-radius: 4px;
+  line-height: 2.5rem;
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin-bottom: 1rem;
+}
+.login-box button {
+  color: #fff;
+  line-height: 2.5rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 5px 10px;
+  width: 100%;
+  background-color: #e50914;
+  margin-top: 1rem;
+}
+
+.login-guid-text,
+.login-guid-text2 {
+  display: flex;
+  font-size: 14px;
+  color: gray;
+}
+
+.login-guid-text {
+  justify-content: space-between;
+}
+.login-guid-text div {
+  display: flex;
+  color: gray;
+}
+.test {
+  border: 1px solid red;
+}
+.footer-wrapper {
+  max-width: 980px;
+  margin: 1.25rem auto;
+}
+footer {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding-bottom: 1.25rem;
+  font-size: 13px;
+  color: gray;
+  padding: 1rem 0 3rem 0;
+}
+.question {
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+footer .social-wrapper ul,
+footer .link-wrapper ul {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 1em;
+}
+footer .social-wrapper ul li {
+  margin-right: 15px;
+  padding: 0 2px;
+}
+footer .link-wrapper ul li {
+  margin-bottom: 16px;
+  width: 245px;
+}
+.service-code {
+  margin-bottom: 1.25rem;
+  font-size: 13px;
+  background-color: transparent;
+  outline: 1px solid gray;
+  color: gray;
+  padding: 0.5em;
+}
+.language {
+  padding: 0.8rem 1.25rem;
+}
+.service-code:hover {
+  outline: 1px solid #fff;
+  color: #fff;
+}
+.copy-text {
+  font-size: 11px;
+  line-height: 1.4em;
+}
+/* footer end */
