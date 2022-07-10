@@ -9,9 +9,11 @@ body {
 #netflex-lgin-logo {
   width: 167px;
   line-height: 80px;
-  fill: #e50914;
   margin-left: 2.4rem;
   padding-top: 1rem;
+}
+#netflex-lgin-logo svg {
+  fill: #e50914;
 }
 .login-box {
   width: 27.5rem;
