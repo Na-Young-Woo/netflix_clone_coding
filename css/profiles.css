@@ -1,0 +1,82 @@
+.profiles-wrapper {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profiles-wrapper h1 {
+  font-size: 3.5vw;
+  margin: 0.67em 0;
+}
+.avatar {
+  width: 128px;
+  height: 128px;
+  background-repeat: no-repeat;
+  background-position: left top;
+  border-radius: 8px;
+  background-size: 128px;
+}
+
+.profiles-wrapper li:hover .avatar {
+  border: 3px solid #e5e5e5;
+}
+
+.profiles-wrapper li:hover .avatar + div {
+  color: #e5e5e5;
+}
+
+.profiles-wrapper a:last-child:hover .avatar {
+  background-color: #e5e5e5;
+}
+.profiles-wrapper a:last-child:hover .avatar path {
+  fill: gray;
+}
+
+.avatar + div {
+  font-size: 1.3vw;
+  color: gray;
+  text-align: center;
+  margin: 15px 0;
+}
+.choose-profile a:not(:last-child) {
+  margin-right: 2vw;
+}
+.choose-profile a:nth-child(1) .avatar {
+  background-image: url(https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABeLKIkjJc_qjRdxnpepqcFpyuDSbmrWuywkKfuNxVbP9SAE7shnZgNdA9RK5ITPR6oyM0ZZJuompU97WfSeORTzc8RsyUYVJo6R2.png?r=72f);
+}
+.choose-profile a:nth-child(2) .avatar {
+  background-image: url(https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABbV2URr-qEYOrESG0qnP2787XsIxWTMBh7QfJwyqYxMAVFNyiXAqFeu16gI8yTxg3kLwF2mUDKmZGfwBEDd7722xskhYwAMwsBBe.png?r=bd7);
+}
+.choose-profile a:nth-child(3) .avatar {
+  background-image: url(https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABWw0vRAvv1VCQh43eIGGbOU9YGB0c_wGM1K8LDuUnYfB0jVIwRW1gTpYldIoy67LtH1Ky8cxhC_mjBb6C4qfcJWHzLAJasWAXuNR.png?r=ce4);
+}
+.choose-profile a:nth-child(4) .avatar {
+  background-image: url(https://occ-0-4796-988.1.nflxso.net/dnm/api/v6/K6hjPJd6cR6FpVELC5Pd6ovHRSk/AAAABQhiBnaLi0boochmOH1PrwtOjAKL2y_G3DPC_PYPbZNnEqAqvGYFcdHz5SBf7Rs48l3trjBI82pVOgJ9swBzvIH5KQgFr5QQzFQu.png?r=b21);
+}
+
+.choose-profile a:last-child .avatar {
+  text-align: center;
+  line-height: 128px;
+}
+
+.choose-profile {
+  margin: 0.7em 0 2em 0;
+}
+
+.profiles-wrapper button {
+  background-color: #fff;
+  font-size: 1.2vw;
+  padding: 0.6em 1.8em;
+  margin-top: 1.5em;
+}
+
+.profiles-wrapper button:hover {
+  background-color: #c00;
+  color: #fff;
+}
+
+.profiles-wrapper ul {
+  display: flex;
+}
