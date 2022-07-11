@@ -24,12 +24,14 @@ body {
 .secondary-text {
   font-size: 13px;
   margin-top: 1rem;
+  color: #8c8c8c;
+  line-height: 1rem;
 }
 .login-box {
   width: 28rem;
   margin: 0 auto;
   min-height: 35rem;
-  border-radius: 0.5rem;
+  border-radius: 0.2rem;
   background-color: rgba(0, 0, 0, 0.7);
   padding: 4rem 4rem 8rem 4rem;
   margin-bottom: 5rem;
@@ -56,13 +58,12 @@ body {
   padding: 5px 10px;
   width: 100%;
   background-color: #e50914;
-  margin-top: 1rem;
+  margin-top: 1.5rem;
 }
 
 .login-guid-text,
 .login-guid-text2 {
   font-size: 14px;
-  color: gray;
 }
 
 .now-sign-up {
@@ -74,20 +75,24 @@ body {
 }
 
 .login-guid-text {
+  font-size: 13px;
   margin-top: 1rem;
   display: flex;
   justify-content: space-between;
+  color: #b3b3b3;
 }
 
 .login-guid-text2 {
-  margin-top: 4rem;
+  margin-top: 5.5rem;
+  color: #737373;
 }
-.login-guid-text div {
-  display: flex;
-  color: gray;
+.login-guid-text2 div:nth-of-type(1) {
+  font-size: 15px;
 }
-.test {
-  border: 1px solid red;
+
+.login-guid-text input {
+  margin: 0;
+  width: 1rem;
 }
 .footer-wrapper {
   max-width: 980px;
